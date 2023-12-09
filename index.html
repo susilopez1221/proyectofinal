@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Azucena Lopes Diaz">
+    <meta name="description" content="nutricion, Salud Y bienestar">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Susi Lopez| Hablando sobre nutricion</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/control-peso.jpg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/LEMA.jpg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Salud y bienestar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">como empezar a mejorar tu alimentacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">para tener un estilo de vida saludable</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/logo.jpeg" alt="Foto de logo">
+        <h1>HOLA, SOY AZUCENA LOPEZ DIAZ</h1>
+       <h2>Soy estudiante de nutricion por lo cual estoy proporcionando informacion de como tener una alimentacion saludable </h2> 
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/SEGUNDA.jpg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">CONOCE QUE ES NUTRICION</h2>
+        <p class="seccion-texto">Hablamos de bienestrar nutricional cuando nuestros cuerpos recibe los nutrientes que necesita. Consiste en el
+           equilibrio entre la ingesta y el uso de alimentos, asi como la absorcion de los nutrientes utiles. </em></p>
+      </div>
+    </section>
+    <section id="videouno" class="videoprincipal">
+      <video src="imagenes/VIDEO1.mp4" width="800" height="500" text-aligen="" autoplay controls>Nutricion</video>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">ALIMENTACION SALUDABLE</p>
+            <p>se puede decir que la alimentación saludable es aquella que proporciona los nutrientes que el cuerpo necesita para mantener el buen 
+              funcionamiento del organismo, conservar o restablecer la salud, minimizar el riesgo de enfermedades, garantizar la reproducción, gestación, 
+              lactancia, desarrollo y crecimiento adecuado. Para lograrlo, es necesario el consumo diario de frutas, verduras, cereales integrales, legumbres,
+               leche, carnes, aves y pescado y aceite vegetal en cantidades adecuadas y variadas. Si lo hacemos así, estamos diciendo que tenemos una alimentación saludable. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Defensas contra enfermdades</span>
+              <span class="badge text-bg-primary">Nos protege de algunos tipos de canceres </span>
+              <span class="badge text-bg-primary">Nos previene de la osteoporosis que es la perdidaa de la masa osea</span>
+              <span class="badge text-bg-primary">Contribuye a evitar enfermedades del corazon</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">SOBREPESO Y OBESIDAD</p>
+            <p>Los términos "sobrepeso" y "obesidad" se refieren a un peso corporal que es mayor de lo que se considera normal o saludable para cierta estatura. 
+              El sobrepeso generalmente se debe a la grasa corporal adicional. Sin embargo, el sobrepeso también puede ocurrir debido a exceso
+               de músculo, hueso o agua. Las personas con obesidad generalmente tienen demasiada grasa corporal.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Hipertencion arterial alta.</span>
+              <span class="badge text-bg-primary">Elevacion de colestero en la sangre.</span>
+              <span class="badge text-bg-primary">Diabetes mellituos.</span>
+              <span class="badge text-bg-primary">Dificultades respiratorias como apnea del sueño. </span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">HABITOS SALUDABLES</p>
+            <p>Llamamos hábitos saludables a todas aquellas conductas que tenemos asumidas como propias en nuestra vida cotidiana y que inciden positivamente en nuestro bienestar físico, mental y social. Determinan la presencia de factores de riesgo y/o de factores protectores para el bienestar.
+             Los estilos de vida/hábitos de vida saludables tienen gran importancia en la promoción de la salud y en la prevención de la enfermedad mental en general, no solo en la depresión</p>
+
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Obtienes los nutrientes, vitaminas y minerales esenciales para tu cuerpo.</span>
+              <span class="badge text-bg-primary">Menos probabilidades de subir de peso.</span>
+              <span class="badge text-bg-primary">Más energía y tienes más facilidad para mantener la concentración.</span>
+              <span class="badge text-bg-primary">Previene el desarrollo de enfermedades cardiovasculares y diabetes.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+                <h2 class="seccion-titulo texto-negro">BENEFICIOS DE LA ACTIVIDAD FISICA </h2>
+      <h3 class="seccion-descripcion">Algunos de los beneficios son:</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/sueño.jpg" alt="L1">
+              <p>El ejercicio de forma regular es buena actividad para promover el sueño, debido a la gran cantidad de endorfinas liberadas, estos son neurotransmisores 
+                (sustancias químicas con efecto en el sistema nervioso) que promueven el estado de relajación y tranquilidad en nuestro cerebro. Importante acotar que si
+                 el tipo de ejercicio es de intensidad moderada o alta, primero ocurre un aumento en la liberación de adrenalina, lo cual nos mantiene más activos, con menos
+                 sueño y eleva la frecuencia cardíaca. Pero este efecto se pierde por completo de 30-120 minutos después de finalizar la rutina. Mientras que el efecto de las 
+                 endorfinas dura por múltiples horas. </p>
+              <div class="overlay">
+                <p>Promueve un mejor sueño.</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/control-peso.jpg" alt="k1">
+                            <p>El ejercicio aeróbico es el predilecto para quemar mayor número de calorías y mantener un peso corporal ideal. Recuerda que tu peso ideal
+                               debe ser establecido con el Índice de Masa Corporal (IMC), este toma en cuenta tu estatura y peso para darte un valor numérico, el cual debe 
+                               estar en un rango normal entre 18,5 a 24,9. </p>
+              <div class="overlay">
+                <p>Ayuda a controlar el peso.</p>
+              <p></p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/corazon.jpg" alt="k1">
+                            <p>Como mencionamos anteriormente, una adecuada rutina de ejercicio puede hacerte perder peso, pues se ha demostrado que la obesidad está asociada 
+                              a mayor predisposición o probabilidad de desarrollar problemas de salud cardiovascular o algunas enfermedades crónicas como hipertensión arterial 
+                              o insuficiencia cardíaca. </p>
+              <div class="overlay">
+                <p>Reduce el riesgo de enfermedades cardiovasculares y cancerigenas.</p>
+              <p></p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/hueso.jpg" alt="k1">
+                            <p>Ejercicios sin mucho peso han demostrado gran eficacia en la reconstitución ósea para los adultos mayores, debido al mayor flujo de sangre
+                               a los huesos y estimulación de la síntesis del colágeno.  </p>
+              <div class="overlay">
+                <p>Mantiene la densidad osea.</p>
+              <p></p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5  -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/colesterol.jpg" alt="k1">
+                            <p>Cuando nos ejercitamos y aumentan considerablemente las demandas de energía, el cuerpo humano utiliza las grasas como fuente energética.
+                               Esta es la razón por la que el ejercicio te hace adelgazar, pero no solo se disminuye la grasa corporal total, sino también el colesterol 
+                               malo (conocido como LDL) que es capaz de formar placas de ateroma y llevar a enfermedades como hipertensión arterial, infartos, accidente 
+                               cerebrovascular, etc. </p>
+              <div class="overlay">
+                <p>Disminuye el colesterol y la presion arterial.</p>
+              <p></p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/depresion.jpg" alt="Proyecto 3">
+              <p>¿Cómo ayuda el ejercicio a combatir la depresión y la ansiedad?
+                Liberación de endorfinas. Son sustancias químicas cerebrales naturales que te hacen sentir bien y mejoran la sensación de bienestar.
+                Confianza. El deporte, en general, ayuda a mejorar la confianza y la autoestima tanto en niños, adolescentes y adultos.
+                Más interacción social. Hacer ejercicio te da la oportunidad de conocer a más personas y solicializar con ellas. 
+                Enfrentar los problemas de manera saludable. El ejercicio es una forma positiva de afrontar los estados de ánimo negativos así como también la depresión o la ansiedad.</p>
+              <div class="overlay">
+                <p>Disminuye la depresion y ansiedad.</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      </div>
+      <a href="https://www.canuto.com.mx/blogs/tips-para-tu-perro/por-que-adoptar-perros-es-mejor-que-comprar#:~:text=Adoptar%20a%20un%20perro%20es,ofreces%20mejores%20condiciones%20de%20vida." target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más puntos de vista...
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- En los siguientes articulos podras encontar mas informacion -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">EN LOS SIGUIENTES ARTICULOS ENCONTRARAS MAS INFORMACION</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://concepto.de/nutricion/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Nutrición - Concepto, tipos, nutrientes y alimentación sana
+            </li>
+          </a>
+          <a href="https://centromedicoabc.com/revista-digital/por-que-es-importante-la-nutricion-para-tratar-la-obesidad/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Relación entre nutrición y obesidad
+            </li>
+          </a>
+          <a href="https://www.herbalife.com.pe/articulos/que-son-habitos-saludables-cuales-son-sus-beneficios/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              ¿Qué son los hábitos saludables y cuáles son sus beneficios?
+            </li>
+          </a>
+          <a href="https://segurossura.com/co/blog/revista-5-sentidos/actividad-fisica-y-nutricion-la-combinacion-perfecta-para-tu-salud/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Actividad física y nutrición, la combinación perfecta para tu salud
+            </li>
+          </a>
+          <a href="https://luuna.mx/blog/20-beneficios-del-ejercicio-fisico-para-tu-salud-fisica-y-mental" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">25 beneficios de la actividad física para la salud de tu cuerpo y mente
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">CARACTERISTICAS DE UNA DIETA SALUDABLE</h2>
+      <h3 class="seccion-descripcion">Las cuales son...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/completa.jpg" alt="primero">
+              <p class="testimonio-texto">COMPLETA.</p>
+              <div class="testimonio-info">
+                <p class="cliente"></p>
+                <p class="cargo">Que contenga todos los nutrimentos.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/equilibrada susi.jpg" alt="segundo">
+              <p class="testimonio-texto">EQUILIBRADA.</p>
+              <div class="testimonio-info">
+                <p class="cliente"></p>
+                <p class="cargo">Que los nutrimentos guarden las proporciones apropiadas entre sí.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/inocua.jpg" alt="tercero">
+              <p class="testimonio-texto">INOCUA.</p>
+              <div class="testimonio-info">
+                <p class="cliente"></p>
+                <p class="cargo">Que su consumo habitual no implique riesgos para la salud porque está exenta de microorganismos 
+                  patógenos, toxinas y contaminantes; que se consuma con mesura y que no aporte cantidades excesivas de ningún componente 
+                  o nutrimento.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/suficiente.jpg" alt="cuarto">
+              <p class="testimonio-texto">SUFICIENTE.</p>
+              <div class="testimonio-info">
+                <p class="cliente"></p>
+                <p class="cargo">Que cubra las necesidades de todos los nutrimentos, de tal manera que la persona adulta tenga una buena nutrición 
+                  y un peso saludable y, en el caso de niñas y niños, que crezcan y se desarrollen de manera correcta.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/variada.jpg" alt="quinto">
+              <p class="testimonio-texto">VARIADA.</p>
+              <div class="testimonio-info">
+                <p class="cliente"></p>
+                <p class="cargo">Que incluya diferentes alimentos de cada grupo en las comidas.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/adecuada.jpg" alt="sexto">
+              <p class="testimonio-texto">ADECUADA.</p>
+              <div class="testimonio-info">
+                <p class="cliente"></p>
+                <p class="cargo">Que sea acorde con los gustos y la cultura de quien la consume y ajustada a
+                   sus recursos económicos, sin que ello signifique que se deban sacrificar sus otras características.</p>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡CONTACTAME!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+             Si estas interesado a mejorar tu alimentacion y a tener un mejor estilo de vida.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="dianalaura.vargas14@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/dia.jpg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">No hay trucos para una alimentación saludable<br> Lo único que necesitas es deseo y voluntad"</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor"> Adaptado por Azucena Lopez Diaz </div>
+      
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
